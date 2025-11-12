@@ -1,0 +1,59 @@
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+
+# Ambienti virtuali
+venv/
+.env/
+.venv/
+env/
+
+# File temporanei o cache
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =====================================
+# Output del tool
+# =====================================
+output/
+!output/.gitkeep  # mantieni la cartella ma non i file generati
+
+# =====================================
+# CSV di test o temporanei
+# =====================================
+*.csv
+!examples/*.csv  # tieni solo quelli nella cartella di esempio
+
+# =====================================
+# Configurazioni locali
+# =====================================
+config.json
+# Mantieni il file di esempio
+!config.json.sample
+
+# =====================================
+# IDE e ambiente
+# =====================================
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# =====================================
+# Sistema operativo
+# =====================================
+ehthumbs.db
+Icon?
+desktop.ini

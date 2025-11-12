@@ -1,0 +1,12 @@
+{
+  "master_file": "staging.csv",
+  "comparison_file": "production.csv",
+  "csv_delimiter": ",",
+  "attr_separator": "§",
+  "special_field": "additional_attributes",
+  "exclude_columns": ["created_at", "updated_at"],
+  "exclude_additional_attributes": ["ignore_updates"],
+  "html_fields": ["description", "shortdescription", "additional_attributes"],
+  "output_file": "output/diff_report.csv",
+  "key_field": "sku"
+}
